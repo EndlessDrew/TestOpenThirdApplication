@@ -7,11 +7,13 @@ import android.widget.TextView;
 
 public class FourthActivity extends AppCompatActivity {
 
+    private TextView mText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fourth);
-        TextView text = findViewById(R.id.tv_test);
+        mText = findViewById(R.id.tv_test);
 
     }
 }
